@@ -1,0 +1,14 @@
+{
+    "name": "@scrapoxy/stylelint-config",
+    "version": "1.0.0",
+    "type": "commonjs",
+    "main": "src/index.js",
+    "private": false,
+    "dependencies": {
+        "prettier": "~2.8.0",
+        "stylelint": "~15.2.0",
+        "stylelint-config-standard-scss": "~7.0.0",
+        "stylelint-order": "~6.0.0",
+        "stylelint-prettier": "~3.0.0"
+    }
+}

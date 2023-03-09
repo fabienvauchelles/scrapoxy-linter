@@ -1,0 +1,24 @@
+{
+    "name": "stylelint-config",
+    "$schema": "../../node_modules/nx/schemas/project-schema.json",
+    "sourceRoot": "packages/stylelint-config/src",
+    "projectType": "library",
+    "targets": {
+        "build": {
+            "executor": "@nrwl/js:tsc",
+            "outputs": [
+                "{options.outputPath}"
+            ],
+            "options": {
+                "outputPath": "dist/stylelint-config",
+                "tsConfig": "packages/stylelint-config/tsconfig.json",
+                "main": "packages/stylelint-config/src/index.ts",
+                "packageJson": "packages/stylelint-config/package.json",
+                "assets": [
+                    "packages/stylelint-config/README.md"
+                ]
+            }
+        }
+    },
+    "tags": []
+}
