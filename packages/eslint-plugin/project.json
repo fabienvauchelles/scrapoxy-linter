@@ -11,7 +11,7 @@
             ],
             "options": {
                 "outputPath": "dist/eslint-plugin",
-                "tsConfig": "packages/eslint-plugin/tsconfig.lib.json",
+                "tsConfig": "packages/eslint-plugin/tsconfig.json",
                 "main": "packages/eslint-plugin/src/index.ts",
                 "packageJson": "packages/eslint-plugin/package.json",
                 "assets": [

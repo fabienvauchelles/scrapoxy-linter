@@ -1,4 +1,4 @@
-# Scrapoxy Linter Rules
+# Scrapoxy ESLint Rules
 
 ## Build it
 
@@ -19,7 +19,7 @@ Add the file `.eslintrc.js` on the project root:
 
 ```js
 module.exports = {
-root: true,
+    root: true,
 
     overrides: [
         {
